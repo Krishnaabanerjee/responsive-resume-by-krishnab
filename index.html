@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/x-icon" href="https://www.freeiconspng.com/uploads/resume-icon-png-2.png">
+    <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
+
+    <title>Responsive Resume</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    
+</head>
+<style>
+*{
+	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	
+	}
+body{
+	
+	background-color: #E0FFFF;
+	display: block;
+	margin: 8px;
+	}
+	
+.main-content{
+	
+	height: 1000px;
+	width: 90%;
+	margin: 20px auto;
+	display: grid;
+	grid-template-rows: 20% 80%;
+	grid-template-columns: 300px 700px;
+	
+	}
+section.left-section{
+	
+	width: 300px;
+	background-color: #778899;
+	display: grid;
+	height: 1000px;
+	grid-column: span 1;
+	grid-area: 1/1/3/2;
+	
+	}	
+section.right-section{
+	width: 700px;
+	background-color: #48D1CC;
+	display: grid;
+	height: 1000px;
+	grid-column: span 1 / span 2;
+	grid-area: 1/2/3/3;
+	
+	}
+section{
+		;
+		display: block;
+		}
+.left-content{
+	padding: 1rem;
+	}
+.profile-image{
+	padding: 1rem;
+	height: 190px;
+	width: 200px;
+	display: block;
+	margin: auto;
+	width: 60%;
+	border: 5px solid #FFF;
+	border-radius: 30%;
+	}
+.name{
+	font-size: 1.2rem;
+	weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.02px;
+	padding: 0.8rem;
+	}
+.designation{
+	font-size: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 0.5rem;
+	}
+.description{
+	font-size: 0.75rem;
+	text-align: center;
+	padding: 1rem;
+	}
+.fa:hover {
+            opacity: 0.9;
+        }
+.fa {
+            padding: 10px;
+            font-size: 20px;
+            width: 60px;
+            text-decoration: none;
+            margin: 10px;
+			text-align: center;
+        }
+.personal-details .fa{
+	        padding: 5px;
+            font-size: 15px;
+            text-decoration: none;
+           
+	}
+.skills{
+	font-size: 0.75rem;
+	text-align: center;
+	text-transform: uppercase;
+	top-padding: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	}
+.skill-name{
+	font-size: 0.65rem;
+	font-weight: 0.065rem;
+	text-align: left;
+	padding-bottom: 0.5rem;
+	}
+.progress-bar{
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	height: 4px;
+	}
+.right-main-content{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	}
+.right-title{
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0.5rem;
+	letter-spacing: 1px;
+	}
+
+@media only screen and (max-width: 673px) {
+	html{
+		display: grid;
+		font-size: 62.5%;
+	}
+	section.left-section{
+		display: grid;
+		font-size: 62.5%;
+	}
+	section.right-section{
+		display: grid;
+		font-size: 62.5%;
+	}
+		}
+	
+
+ 
+</style>
+
+<body class="main-content">
+<section class="left-section">
+<div class="left-content">
+<div class="profile-details">
+<div class="profile">
+<img src="https://image.pngaaa.com/776/478776-middle.png" class="profile-image">
+</div>
+<h1 class="name">Krishna Banerjee</h1>
+
+<h4 class="designation">SDE-1</h4>
+<hr>
+<p class="description">Full Stack Develpoer| Web Develpoer</p>
+</div>
+<div class="contact-info">
+<div class="contact-item">
+<div class="social-media">
+	<p class="icon"><a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-github"></a><a href="#" class="fa fa-twitter"></a></p>
+	<!---- <p class="icon"><a href="#" class="fa fa-github"></a></p> -->
+	
+</div>
+<div class="personal-details">
+	<p class="icon"><a href="#" class="fa fa-envelope"></a>abc@gmail.com<p>
+    <p class="icon"><a href="#" class="fa fa-phone"></a>0122222222<p>
+    <p class="icon"><a href="#" class="fa fa-map-marker"></a>A.B.Road<p>
+	
+	
+</div>
+<br>
+</div>
+</div>
+<div class="skills">
+<h2>Skills</h2>
+
+<div class="skill-name"><h3>HTML</h3></div>
+<div class="progress-bar" style="width: 90%"></div><br />
+
+<div class="skill-name"><h3>CSS</h3></div>
+<div class="progress-bar" style="width: 85%"></div> <br />
+
+<div class="skill-name"><h3>JAVASCRIPT</h3></div>
+<div class="progress-bar" style="width: 70%"></div> <br />
+
+<div class="skill-name"><h3>MYSQL</h3></div>
+<div class="progress-bar" style="width: 60%"></div> <br />
+
+<div class="skill-name"><h3>PHP</h3></div>
+<div class="progress-bar" style="width: 40%"></div> <br />
+
+</div>
+
+</div>
+</section>
+<section class="right-section">
+<div class="right-main-content">
+<h2 class="right-title">ABOUT ME</h2>
+</div>
+
+<div class="right-main-content">
+<h2 class="right-title">EDUCATION</h2>
+</div>
+
+<div class="right-main-content">
+<h2 class="right-title">EXPERIENCE</h2>
+</div>
+
+
+</section>
+
+
+</body>
+</html>
